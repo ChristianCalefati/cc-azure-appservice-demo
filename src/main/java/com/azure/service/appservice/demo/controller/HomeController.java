@@ -10,4 +10,9 @@ public class HomeController {
     public String home(){
         return "Hello from Spring Boot";
     }
+
+    @GetMapping("/justapath")
+    public String getString(){
+        return "Another path";
+    }
 }
